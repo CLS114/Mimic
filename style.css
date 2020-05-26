@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+}
+
+/*Header grid mm.*/
+.header_forside{
+    display: grid;
+    grid-template-areas:
+    'logo where setting'
+    'menu name none';
+}
+
+.danfoss_logo{
+   grid-area: logo;
+   width: 200px;
+   height: 75px;
+
+}
+.where_am_i{
+   grid-area: where;
+   background-color: #454544;
+   width: 310px;
+   max-height: 75px;
+}
+h2{
+    display: inline;
+}
+.placement_logo{
+    color: aliceblue;
+    width: 10%;
+}
+.change_location{
+    width: 10%;
+    color: aliceblue;
+    float: right;
+}
+.profil_setting{
+  grid-area: setting;
+  background-color: #5C5C5C;
+  height: 75px;
+  width: 753px;
+ 
+}
+.log_out{
+    width: 30px;
+    padding-left: 20px;
+    padding-top: 35px;
+    float: right;
+}
+.profil{
+    width: 30px;
+    padding-left: 20px;
+    padding-top: 35px;
+    float: right;
+}
+
+section .menu{
+    grid-area: menu;
+    width: 35px;
+    background-color: #F0F0F0;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+section{
+    background-color: #F0F0F0;
+    height: 100px;
+    width: 200px;
+    
+}
+.site_name{
+    grid-area: name; 
+    background-color: #F0F0F0;
+    margin: 0;  
+}
+.box{
+   grid-area: none;
+   background-color: #F0F0F0;
+}
+
+/* alle kølerne*/
+
+.all_boxes{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr) 300px;
+    grid-template-rows: repeat(6, 100px);
+}
+.all_boxes div{
+background: #F9F9F9;
+border: 0.2px solid #000000;
+width: 100px;
+height: 100px;
+
+}
+/*boxenes plasering*/
+
+.boks1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+   
+}
+.boks2{
+    grid-column-start: 2;
+    grid-row-start: 3;
+
+}
+.boks3{
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+.boks4{
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+.boks5{
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+.boks6{
+    grid-column-start: 2;
+    grid-row-start: 7;
+}
+.boks7{
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+.boks8{
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+.boks9{
+    grid-column-start: 5;
+    grid-row-start: 4;
+}
+.boks10{
+    grid-column-start: 5;
+    grid-row-start: 5;
+}
+.boks11{
+    grid-column-start: 5;
+    grid-row-start: 6;
+}
+.boks12{
+    grid-column-start: 5;
+    grid-row-start: 7;
+}
+.boks13{
+    grid-column-start: 8;
+    grid-row-start: 2;
+}
+.boks14{
+    grid-column-start: 8;
+    grid-row-start: 3;
+}
+.boks15{
+    grid-column-start: 8;
+    grid-row-start: 4;
+}
+.boks16{
+    grid-column-start: 8;
+    grid-row-start: 5;
+}
+.boks17{
+    grid-column-start: 8;
+    grid-row-start: 6;
+}
+.boks18{
+    grid-column-start: 8;
+    grid-row-start: 7;
+}
+/*aside*/
+.aside_forside{
+float: right;
+grid-column-start: 13;
+grid-row-start: 2;
+}
+
+.swift_store img{
+    width: 30px;
+}
